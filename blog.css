@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: calibri; 
+}
+body{
+    background-image: url(bgimg.jpg);
+    /* position: relative; */
+    background-size: cover;
+    /* background-position-y: -6%; */
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: rgb(197, 188, 228);
+}
+.wholenavbar{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background-color: rgba(35, 34, 34, 0.082);
+}
+.searchbar{
+    display: flex;
+    transform: translateX(-4%);
+        vertical-align: top;
+        /* align-items: center; */
+        justify-content: center;
+}
+.searchbar button{
+    width: 3%;
+    /* padding: 5px; */
+    margin-left: 0;
+    transform: translateY(-9vh);
+    border-left: 1px solid;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    background-color: rgb(168, 167, 167);
+}
+.searchbar button:hover{
+    background-color: rgb(84, 84, 84);
+    color: rgb(255, 255, 255);
+    border-left: 1px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.searchbar input{
+    height: 4vh;
+    transform: translateY(-9vh);
+    width: 37vh;
+    /* border-radius: 25px; */
+    font-size: large;
+    border-right: 0;
+    border-bottom: 2px solid black;
+    background-color: rgb(232, 232, 232);
+}
+.subscribeicon{
+width: 10% ;
+height: 10%;
+padding: 8px 0;
+font-size:large; 
+margin: 0px 8px;
+float: right;
+text-align: center;
+transform: translateY(-13vh);
+border: 2px solid red;
+transition: 1s;
+}
+.subscribeicon:hover{
+    background-color:rgb(255, 0, 0) ;
+    color: #fff;
+    border-radius: 30px;
+}
+.subscribeicon a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+
+}
+.navbarlinks a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0 19px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.navbarlinks{
+    width: 100%;
+    display: flex;
+    transform: translateY(-10vh);
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    margin-bottom: -9vh;
+}
+.navbarlinks a:hover{
+    color: rgb(84, 6, 132);
+}
+
+
+
+
+.logopng{
+    height: 5%;
+    width: 5%;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.logo1{
+    display: inline-flex;
+    justify-content: start;
+    margin: 40px 12px;
+    font-size: x-large;
+    color: yellow;
+    cursor: pointer;
+    font-size: 26px;
+}
+.para1{
+    width: 30%;
+    font-size: larger;
+    transform: translateY(17vh);
+    margin-left: 15px;
+}
+.p1{
+    font-size: 16vh;
+    font-weight: 550;
+    color: rgba(14, 13, 13, 0.849);
+}
+.p2{
+    font-size: 8vh;
+    color: rgb(136, 70, 223);
+margin-left: 30px; 
+text-shadow: 50px rgb(136, 70, 223);
+}
+.p3{
+    transform: translateY(-10%);   
+    color: rgb(223, 200, 238);
+    font-size: larger;
+    margin-left: 80px;
+}
+button{
+transform: translateY(40%);
+margin-left: 10px;
+}
+.btns{
+    margin-left: 75px;
+
+}
+
+.readbtn{
+    padding: 10px 17px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 221, 0);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: 550;
+    transition: 0.5s;
+}
+.readbtn:hover{
+    background-color: darkgoldenrod;
+    color: #fff;
+    font-size: 18px;
+}
+
+.watchbtn{
+    border: 0;
+    padding: 12px 17px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(39, 38, 38);
+    border-radius: 30px;
+    font-size: large;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.watchbtn:hover{
+    background-color: rgb(23, 23, 23);
+    color: #fff;
+    font-size: 18px;
+}
+
+.para2{
+    width: 23%;
+    text-align: end;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transform: translateY(-43vh);
+    margin-left: 125vh;
+}
+.vdo{
+    transform: translateY(-50%);
+    margin-left: 136vh;
+    border-radius: 30px;
+    overflow: hidden;
+    width: 22%;
+    /* filter: drop-shadow(blue); */
+    filter: drop-shadow(0 0 4px rgba(15, 15, 15, 0.676));
+    transition: 0.5s;
+}
